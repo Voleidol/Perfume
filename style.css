@@ -1,0 +1,19 @@
+body {
+    /* background-color: red; */
+}
+
+ .img {
+    position: absolute;
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+}
+
+ .abs {
+    background: url(back-men.png);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    right: -65px;
+}
