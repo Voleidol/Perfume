@@ -17,3 +17,11 @@ body {
     position: relative;
     right: -65px;
 }
+
+.ymaps-layers-pane {
+	filter: grayscale(1);
+	-ms-filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+}
