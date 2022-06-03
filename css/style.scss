@@ -1,3 +1,97 @@
 // Файл обнуляющих стилей
 @import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+// Переменные для блока
+$fz_abzac: 2.25em;
+$color_abzac: #013652; 
+$color_border:#DBC6B0;
+$color_description_two_page:#2E363E;
+$color_white: white;
+
+//Шаблоны
+.abzac {
+    font-family: 'Noto Serif', serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: $fz_abzac;
+    line-height: 2.938em;
+    color: $color_abzac;
+}
+
+.links {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.8em;
+    line-height: 100%;
+    color: $color_abzac;
+}
+
+.logo-header {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.8em;
+    line-height: 100%;
+    color: $color_abzac;
+}
+
+.icons-two-page {
+    width: 6.25em;
+    height: 6.25em;
+    fill: $color_border;
+    border: 0.25em solid $color_border;
+}
+
+body {
+    .main-content {
+        width: 100%;
+        padding: 0 !important;
+    }
+    // background-color: #185D77 !important;
+    background-color: rgb(41, 243, 41) !important;
+    * a {
+        text-decoration: none !important;
+    }
+    header {
+        
+        .wrap_header {
+            height: 7.5em;
+            background-color: #2D6070;
+            opacity: 0.9;
+            padding: 15px !important;
+            & a {
+                color: $color_white;
+                @extend .links;
+            }
+
+            .logo {
+                img {
+                    width: 5em;
+                    height: 5em;
+                }
+                span {
+                    color: $color_white;
+                    @extend .logo-header;
+                    margin-left: 4px;
+                }
+            }
+
+            .header_description {
+                width: 43.7em;
+            }
+
+            .contact_header_tel {
+                img {
+                    margin-right: 1em;
+                }
+            }
+            
+        }
+        .back_one_page {
+            background: url(../img/logo/back-header.jpg) no-repeat;
+        } 
+    }
+    
+}
+
+
 

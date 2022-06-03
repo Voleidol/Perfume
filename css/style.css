@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -70,7 +71,82 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 
-
-
 /*--------------------*/
+.abzac {
+  font-family: 'Noto Serif', serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 2.25em;
+  line-height: 2.938em;
+  color: #013652;
+}
+
+.links, body header .wrap_header a {
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 1.8em;
+  line-height: 100%;
+  color: #013652;
+}
+
+.logo-header, body header .wrap_header .logo span {
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 1.8em;
+  line-height: 100%;
+  color: #013652;
+}
+
+.icons-two-page {
+  width: 6.25em;
+  height: 6.25em;
+  fill: #DBC6B0;
+  border: 0.25em solid #DBC6B0;
+}
+
+body {
+  background-color: #29f329 !important;
+}
+
+body .main-content {
+  width: 100%;
+  padding: 0 !important;
+}
+
+body * a {
+  text-decoration: none !important;
+}
+
+body header .wrap_header {
+  height: 7.5em;
+  background-color: #2D6070;
+  opacity: 0.9;
+  padding: 15px !important;
+}
+
+body header .wrap_header a {
+  color: white;
+}
+
+body header .wrap_header .logo img {
+  width: 5em;
+  height: 5em;
+}
+
+body header .wrap_header .logo span {
+  color: white;
+  margin-left: 4px;
+}
+
+body header .wrap_header .header_description {
+  width: 43.7em;
+}
+
+body header .wrap_header .contact_header_tel img {
+  margin-right: 1em;
+}
+
+body header .back_one_page {
+  background: url(../img/logo/back-header.jpg) no-repeat;
+}
 /*# sourceMappingURL=style.css.map */
