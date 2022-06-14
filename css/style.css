@@ -146,7 +146,41 @@ body header .wrap_header .contact_header_tel img {
   margin-right: 1em;
 }
 
-body header .back_one_page {
-  background: url(../img/logo/back-header.jpg) no-repeat;
+@media (min-width: 800px) and (max-width: 3000px) {
+  body header .back_one_page {
+    width: 1920px;
+    height: 1080px;
+    background: url(../img/logo/back-header.jpg) no-repeat;
+  }
+  body header .back_one_page .logo_fon img {
+    width: 85%;
+  }
+  body header .back_one_page .logo_fon span {
+    font-family: 'Noto Serif', serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 5em;
+    line-height: 2.938em;
+    letter-spacing: 3rem;
+    color: #ddb97e;
+    margin-top: -24rem;
+  }
+  body header .back_one_page .buy_span {
+    min-width: 600px;
+  }
+  body header .back_one_page .buy_span button {
+    background-color: #ddb97e;
+  }
+  body header .back_one_page .buy_span button a {
+    color: white;
+    padding: 10px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-size: 2em;
+    margin-top: -24rem;
+  }
+  body header .back_one_page .buy_span span {
+    color: white;
+  }
 }
 /*# sourceMappingURL=style.css.map */

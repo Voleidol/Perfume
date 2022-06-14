@@ -86,9 +86,48 @@ body {
             }
             
         }
-        .back_one_page {
-            background: url(../img/logo/back-header.jpg) no-repeat;
-        } 
+        @media (min-width: 800px) and (max-width: 3000px) {
+            .back_one_page {
+                width: 1920px;
+                height: 1080px;
+                background: url(../img/logo/back-header.jpg) no-repeat;
+                .logo_fon {
+    
+                    img {
+                        width: 85%;
+                    }
+                    span {
+                        
+                        font-family: 'Noto Serif', serif;
+                        font-style: bold;
+                        font-weight: 700;
+                        font-size: 5em;
+                        line-height: 2.938em;
+                        letter-spacing: 3rem;
+                        color: #ddb97e;
+                        margin-top: -24rem;
+                    }
+                }
+                .buy_span {
+                    min-width: 600px;
+                    button {
+                        background-color:#ddb97e;
+                        a {
+                            color: $color_white;
+                            padding: 10px;
+                            font-family: 'Noto Serif', serif;
+                            font-weight: 400;
+                            font-size: 2em;
+                            margin-top: -24rem;
+                        }
+                    }
+                    span {
+                        color: $color_white;
+                    }
+                }
+            } 
+        }
+        
     }
     
 }
