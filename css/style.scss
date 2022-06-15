@@ -42,17 +42,12 @@ $color_white: white;
 }
 
 body {
-    .main-content {
-        width: 100%;
-        padding: 0 !important;
-    }
     // background-color: #185D77 !important;
     background-color: rgb(41, 243, 41) !important;
     * a {
         text-decoration: none !important;
     }
     header {
-        
         .wrap_header {
             height: 7.5em;
             background-color: #2D6070;
