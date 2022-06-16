@@ -15,8 +15,8 @@
         <header>
             <div class="container">
                 <div class="row">
-                    <div class="col-12 wrap_header d-flex bd-highlight justify-content-between align-items-center">
-                            <div class="burger d-md-none d-sm-block">
+                    <div class="col-12 position-fixed wrap_header d-flex bd-highlight justify-content-between align-items-center">
+                            <div class="burger d-md-none d-sm-block d-xs-block">
                                 <img src="icons/burger.svg" alt="">
                             </div>
         
@@ -25,40 +25,41 @@
                                 <span>ELIXIR MYSTIC</span>
                             </div>
         
-                            <div class="header_description d-sm-none d-md-flex bd-highlight justify-content-between align-items-center">
+                            <div class="header_description d-sm-none d-none d-md-flex bd-highlight justify-content-between align-items-center">
                                 <a href="#men-line">Продукты</a>
                                 <a href="#two_page">Почему мы</a>
                                 <a href="#cont">Связаться с нами</a>
                                 <a href="#form-page">Как купить</a>
                             </div>
         
-                            <div class="contact_header_tel d-sm-none d-md-flex bd-highlight justify-content-between align-items-center">
+                            <div class="contact_header_tel d-sm-none d-none d-md-flex bd-highlight justify-content-between align-items-center">
                                 <img src="icons/tel_header.svg" alt="">
                                 <a href="tel:+79601653352">8 (960) 165-33-52</a>
                             </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">
-                        <div class="back_one_page d-flex flex-column bd-highlight justify-content-start align-items-center">
-    
+                    <div class="col-12 position-absolute back_one_page d-flex flex-column bd-highlight justify-content-start align-items-center">
                             <div class="logo_fon d-flex flex-column bd-highlight justify-content-start align-items-center">
-                                <img src="img/logo/logotip-removebg.png" alt="">
-                                <span>ELIXIR MYSTIC</span>
+                                <div class="logo_fon_flex d-flex flex-column bd-highlight justify-content-start align-items-center">
+                                    <img class="img-fluid" src="img/logo/logotip-removebg.png" alt="">
+                                    <div class="span_rectangle">
+                                        <span>ELIXIR MYSTIC</span>
+                                    </div>
+                                    
+                                </div>                        
                             </div>
     
                             <div class="buy_span d-sm-none d-md-flex flex-row bd-highlight justify-content-between align-items-center">
                                 <button><a href="#">Купить</a></button>
-                                <span>Ароматы для мужчини женщин</span>
-                            </div>
-    
-                        </div>
+                                <span>Ароматы <br> для мужчин <br> и женщин</span>                         
+                            </div>                     
                     </div>
                 </div>
             </div>
         </header>
 
-        <!-- <section id="two_page" class="two_page">
+        <section id="two_page" class="two_page">
             <div class="container">
                 <div class="row">
 
@@ -278,8 +279,8 @@
                     </div>   
                 </div>
             </div>
-        </footer> -->
-    
+        </footer>
+     
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
