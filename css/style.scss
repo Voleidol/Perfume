@@ -98,13 +98,13 @@ body {
             .logo_fon {
                 margin-top: 5%;
                 img {
-                    width: 85%;
+                    width: 70%;
                     z-index: 1;
                 }
                 .span_rectangle {
                     background-color:rgba(39, 63, 68, 0.5);
                     border-radius: 20%;
-                    margin-top: -24rem;
+                    margin-top: -6rem;
                     margin-left: 10rem; 
                     z-index: 0;
                     span {                 
@@ -114,38 +114,42 @@ body {
                         font-size: 5em;
                         line-height: 2.938em;
                         letter-spacing: 3rem;
-                        color: #ddb97e;
-                        
+                        color: #ddb97e;                  
                     }
-                }         
-            }
-            .buy_span {
-                min-width: 600px;
-                max-width: 90rem;
-                margin-top: 7em;    
-                // Сделать адаптив через медиа запросы
-                button {
-                    background-color:#DA7F27;
-                    padding: 25px 50px;
-                    border-radius: 7%;
-                    a {
+                }   
+                .buy_span {
+                    min-width: 600px;
+                    max-width: 90rem;    
+                    // Сделать адаптив через медиа запросы
+                    button {
+                        background-color:#DA7F27;
+                        padding: 25px 50px;
+                        border-radius: 7%;
+                        margin-right: 10em;
+                        margin-top: -40em;
+                        a {
+                            color: $color_white;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 2.125em;
+                            margin-top: -24rem;
+                        }
+                    }
+                    span {
                         color: $color_white;
-                        font-family: 'Montserrat', sans-serif;
-                        font-size: 2.125em;
-                        margin-top: -24rem;
+                        font-family: 'Noto Serif', serif;
+                        font-size: 3em;
+                        letter-spacing: 0.2em;
+                        margin-left: 25rem;
+                        background-color:rgba(39, 63, 68, 0.35);
+                        border-radius: 15%;
+                        padding: 20px;
+                        margin-top: -13em;
+                        z-index: 10;
+                        text-align: center;
                     }
-                }
-                span {
-                    color: $color_white;
-                    font-family: 'Noto Serif', serif;
-                    font-size: 5em;
-                    letter-spacing: 0.2em;
-                    margin-left: 25rem;
-                    background-color:rgba(39, 63, 68, 0.35);
-                    border-radius: 15%;
-                    padding: 20px;
-                }
+                }      
             }
+            
         }        
     }
     

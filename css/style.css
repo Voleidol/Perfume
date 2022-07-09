@@ -159,14 +159,14 @@ body header .back_one_page .logo_fon {
 }
 
 body header .back_one_page .logo_fon img {
-  width: 85%;
+  width: 70%;
   z-index: 1;
 }
 
 body header .back_one_page .logo_fon .span_rectangle {
   background-color: rgba(39, 63, 68, 0.5);
   border-radius: 20%;
-  margin-top: -24rem;
+  margin-top: -6rem;
   margin-left: 10rem;
   z-index: 0;
 }
@@ -181,33 +181,37 @@ body header .back_one_page .logo_fon .span_rectangle span {
   color: #ddb97e;
 }
 
-body header .back_one_page .buy_span {
+body header .back_one_page .logo_fon .buy_span {
   min-width: 600px;
   max-width: 90rem;
-  margin-top: 7em;
 }
 
-body header .back_one_page .buy_span button {
+body header .back_one_page .logo_fon .buy_span button {
   background-color: #DA7F27;
   padding: 25px 50px;
   border-radius: 7%;
+  margin-right: 10em;
+  margin-top: -40em;
 }
 
-body header .back_one_page .buy_span button a {
+body header .back_one_page .logo_fon .buy_span button a {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.125em;
   margin-top: -24rem;
 }
 
-body header .back_one_page .buy_span span {
+body header .back_one_page .logo_fon .buy_span span {
   color: white;
   font-family: 'Noto Serif', serif;
-  font-size: 5em;
+  font-size: 3em;
   letter-spacing: 0.2em;
   margin-left: 25rem;
   background-color: rgba(39, 63, 68, 0.35);
   border-radius: 15%;
   padding: 20px;
+  margin-top: -13em;
+  z-index: 10;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
