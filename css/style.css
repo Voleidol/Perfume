@@ -105,109 +105,166 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  background-color: #8cfa8c !important;
+  background-color: #bfbfbf !important;
 }
 
 body * a {
   text-decoration: none !important;
 }
 
-body header .wrap_header {
-  height: 7.5em;
-  left: 0;
-  z-index: 1;
-  background-color: #2D6070;
-  opacity: 0.9;
-  padding: 15px !important;
-}
-
-body header .wrap_header a {
-  color: white;
-}
-
-body header .wrap_header .logo img {
-  width: 5em;
-  height: 5em;
-}
-
-body header .wrap_header .logo span {
-  color: white;
-  margin-left: 10px;
-}
-
-body header .wrap_header .header_description {
-  width: 43.7em;
-}
-
-body header .wrap_header .contact_header_tel img {
-  margin-right: 1em;
-}
-
-body header .back_one_page {
-  height: 100%;
-  z-index: 0;
-}
-
-body header .back_one_page .one-page-back-img {
-  width: 100%;
-  height: 100%;
+body .one_page {
+  margin: 0 auto;
   background: url(../img/logo/back-header.jpg) no-repeat;
+  max-width: 120em;
+  height: 67.5em;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-body header .back_one_page .logo_fon {
-  margin-top: 5%;
+body .one_page .contact_head * a {
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.188em;
+  line-height: 27px;
 }
 
-body header .back_one_page .logo_fon img {
-  width: 85%;
-  z-index: 1;
+body .one_page .contact_head .flex_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  max-width: 120em;
+  width: 100%;
+  background-color: rgba(45, 96, 112, 0.9);
+  opacity: 0.8;
+  padding: 1.25em;
 }
 
-body header .back_one_page .logo_fon .span_rectangle {
-  background-color: rgba(39, 63, 68, 0.5);
-  border-radius: 20%;
-  margin-top: -24rem;
-  margin-left: 10rem;
-  z-index: 0;
+body .one_page .contact_head .flex_head .flex_logo_description_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-body header .back_one_page .logo_fon .span_rectangle span {
-  font-family: 'Noto Serif', serif;
-  font-style: bold;
-  font-weight: 700;
-  font-size: 5em;
-  line-height: 2.938em;
-  letter-spacing: 3rem;
-  color: #ddb97e;
-}
-
-body header .back_one_page .buy_span {
-  min-width: 600px;
-  max-width: 90rem;
-  margin-top: 7em;
-}
-
-body header .back_one_page .buy_span button {
-  background-color: #DA7F27;
-  padding: 25px 50px;
-  border-radius: 7%;
-}
-
-body header .back_one_page .buy_span button a {
+body .one_page .contact_head .flex_head .flex_logo_description_header span {
   color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.125em;
-  margin-top: -24rem;
+  padding-left: 0.5em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.188em;
+  line-height: 27px;
 }
 
-body header .back_one_page .buy_span span {
+body .one_page .contact_head .flex_head .flex_links_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 34.375em;
+}
+
+body .one_page .contact_head .flex_head .flex_contact_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .one_page .contact_head .flex_head .flex_contact_header a {
+  padding-left: 0.5em;
+}
+
+body .one_page .back_head {
   color: white;
-  font-family: 'Noto Serif', serif;
-  font-size: 5em;
-  letter-spacing: 0.2em;
-  margin-left: 25rem;
-  background-color: rgba(39, 63, 68, 0.35);
-  border-radius: 15%;
-  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 100%;
+}
+
+body .one_page .back_head .flex_center_back_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 100%;
+}
+
+body .one_page .back_head .flex_center_back_head .logo_gold {
+  background: url(../img/logo/logotip-removebg.png) no-repeat;
+  max-width: 50em;
+  height: 40em;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .one_page .back_head .flex_center_back_head .logo_gold .title {
+  background-color: rgba(39, 63, 68, 0.4);
+}
+
+body .one_page .back_head .flex_center_back_head .logo_gold span {
+  color: #d0af90;
+  font-family: "Noto Serif", serif;
+  font-weight: 500;
+  font-size: 5.625em;
+  letter-spacing: 0.5rem;
 }
 /*# sourceMappingURL=style.css.map */

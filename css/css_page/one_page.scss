@@ -1,0 +1,26 @@
+.one_page {
+    .contact_head {
+        position: fixed;
+        width: 100%;
+        .flex_head {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgba(45, 96, 112, 0.9);
+            padding: 10px;
+            .flex_logo_description_header {
+                display: flex;
+                align-items:center;
+                & span {
+                    color:white;
+                    padding-left: 0.313rem;
+                    font-family: $font_motoserrat;
+                    font-weight: 500;
+                    font-size: 1.188em;
+                    line-height: 27px;
+                }
+            }
+        }           
+    }
+}

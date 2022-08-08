@@ -4,10 +4,12 @@
 
 // Переменные для блока
 $fz_abzac: 2.25em;
-$color_abzac: #013652; 
+$color_abzac: #013652;
 $color_border:#DBC6B0;
 $color_description_two_page:#2E363E;
 $color_white: white;
+$font_motoserrat: 'Montserrat', sans-serif;
+$font_notoserif: 'Noto Serif', serif;
 
 //Шаблоны
 .abzac {
@@ -44,112 +46,109 @@ $color_white: white;
 
 body {
     // background-color: #185D77 !important;
-    background-color: rgb(140, 250, 140) !important;
+    background-color: #bfbfbf !important;
+
     * a {
         text-decoration: none !important;
     }
-    header {
-        .wrap_header {
-            height: 7.5em;
-            left: 0;
-            z-index: 1;
-            background-color: #2D6070;
-            opacity: 0.9;
-            padding: 15px !important;
-            & a {
-                color: $color_white;
-                @extend .links;
+
+    // @import "css_page/one_page.scss";
+    
+    .one_page {
+        margin: 0 auto;
+        background: url(../img/logo/back-header.jpg) no-repeat;
+        max-width: 120em;
+        height: 67.5em;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .contact_head {
+
+            * a {
+                color: white !important;
+                font-family: $font_motoserrat;
+                font-weight: 500;
+                font-size: 1.188em;
+                line-height: 27px;
             }
 
-            .logo {
-                img {
-                    width: 5em;
-                    height: 5em;
+            .flex_head {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                position: fixed;
+                max-width: 120em;
+                width: 100%;
+                background-color: rgba(45, 96, 112, 0.9);
+                opacity: 0.8;
+                padding: 1.25em;
+                .flex_logo_description_header {
+                    display: flex;
+                    align-items:center;
+                    & span {
+                        color:white;
+                        padding-left: 0.5em;
+                        font-family: $font_motoserrat;
+                        font-weight: 500;
+                        font-size: 1.188em;
+                        line-height: 27px;
+                    }
                 }
-                span {
-                    color: $color_white;
-                    @extend .logo-header;
-                    margin-left: 10px;
-                }
-            }
 
-            .header_description {
-                width: 43.7em;
-            }
-
-            .contact_header_tel {
-                img {
-                    margin-right: 1em;
+                .flex_links_header {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 34.375em;
                 }
-            }
-            
+
+                .flex_contact_header {
+                    display: flex;
+                    align-items:center;
+                    & a {
+                        padding-left: 0.5em;
+                    }
+                }
+            }           
         }
 
-        .back_one_page {
-            // width: 100%;
-            height: 100%;
-            // left: 0 !important;
-            z-index: 0;
-            .one-page-back-img {
-                width: 100%;
-                height: 100%;
-                background: url(../img/logo/back-header.jpg) no-repeat;
-            }
-            .logo_fon {
-                margin-top: 5%;
-                img {
-                    width: 85%;
-                    z-index: 1;
-                }
-                .span_rectangle {
-                    background-color:rgba(39, 63, 68, 0.5);
-                    border-radius: 20%;
-                    margin-top: -24rem;
-                    margin-left: 10rem; 
-                    z-index: 0;
-                    span {                 
-                        font-family: 'Noto Serif', serif;
-                        font-style: bold;
-                        font-weight: 700;
-                        font-size: 5em;
-                        line-height: 2.938em;
-                        letter-spacing: 3rem;
-                        color: #ddb97e;
-                        
+        .back_head {
+            color:white;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            max-height: 100%;
+            .flex_center_back_head {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items:center;
+                max-height: 100%;
+                .logo_gold {
+                    background:url(../img/logo/logotip-removebg.png) no-repeat;
+                    max-width: 50em;
+                    height: 40em;
+                    background-size:contain;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    margin-bottom: 5em;
+                    align-items:center;
+                    
+                    .title {
+                        background-color:rgba(39, 63, 68, 0.4);
                     }
-                }         
+                    span {
+                        color:rgba(208, 175, 144, 1);
+                        font-family: $font_notoserif;
+                        font-weight: 500;
+                        font-size: 5.625em;
+                        letter-spacing: 0.5rem;                
+                        }
+                    }  
+                }    
             }
-            .buy_span {
-                min-width: 600px;
-                max-width: 90rem;
-                margin-top: 7em;    
-                // Сделать адаптив через медиа запросы
-                button {
-                    background-color:#DA7F27;
-                    padding: 25px 50px;
-                    border-radius: 7%;
-                    a {
-                        color: $color_white;
-                        font-family: 'Montserrat', sans-serif;
-                        font-size: 2.125em;
-                        margin-top: -24rem;
-                    }
-                }
-                span {
-                    color: $color_white;
-                    font-family: 'Noto Serif', serif;
-                    font-size: 5em;
-                    letter-spacing: 0.2em;
-                    margin-left: 25rem;
-                    background-color:rgba(39, 63, 68, 0.35);
-                    border-radius: 15%;
-                    padding: 20px;
-                }
-            }
-        }        
+        }
     }
-    
-}
-
-
-
