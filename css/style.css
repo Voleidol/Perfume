@@ -272,12 +272,11 @@ body .one_page .back_head .flex_center_back_head .logo_gold {
           align-items: center;
 }
 
-body .one_page .back_head .flex_center_back_head .logo_gold .title {
-  background-color: rgba(39, 63, 68, 0.4);
-}
-
 body .one_page .back_head .flex_center_back_head .logo_gold span {
   color: #d0af90;
+  background-color: rgba(39, 63, 68, 0.4);
+  border-radius: 1em;
+  padding: 0.2em;
   font-family: "Noto Serif", serif;
   font-weight: 500;
   font-size: 5.625em;
@@ -691,8 +690,8 @@ body .three_page_men .three_page_slider .arrow {
 }
 
 body .three_page_men .three_page_slider .slides img {
-  width: 36.5em;
-  height: 37.5em;
+  width: 26.5em;
+  height: 27.5em;
   padding: 1.5em;
 }
 
@@ -714,6 +713,98 @@ body .three_page_men .three_page_btn button a {
 }
 
 body .three_page_men .three_page_btn button a:hover {
+  color: black;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+body .four_page_woomen {
+  margin: 0 auto;
+  background: url(../img/Woomen/entourage/woomen-back-vlad.jpg) no-repeat;
+  max-width: 120em;
+  height: 67.5em;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .four_page_woomen .four_page_title h2 {
+  font-weight: 200;
+  font-family: "Noto Serif", serif;
+  font-size: 5em;
+  color: white;
+  background-color: #58585866;
+  border-radius: 3em;
+  padding: 0.2em;
+}
+
+body .four_page_woomen .four_page_slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .four_page_woomen .four_page_slider .arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 97.938em;
+  padding-bottom: 1em;
+}
+
+body .four_page_woomen .four_page_slider .slides img {
+  width: 26.5em;
+  height: 27.5em;
+  padding: 1.5em;
+}
+
+body .four_page_woomen .four_page_btn button {
+  background-color: #DA7F27;
+  border-radius: 0.313em;
+  color: white;
+  padding: 1em 1em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
+  max-width: 18.125em;
+  height: 6.25em;
+  letter-spacing: 0.2em;
+}
+
+body .four_page_woomen .four_page_btn button a {
+  color: white;
+}
+
+body .four_page_woomen .four_page_btn button a:hover {
   color: black;
   -webkit-transition: 0.6s;
   transition: 0.6s;
