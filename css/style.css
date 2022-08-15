@@ -113,6 +113,13 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 0.5em;
 }
 
+.form-text, body .five_page .five_page_form_one_block .five_page_form_one_block_title {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-size: 3.75em;
+  color: #013652;
+}
+
 body {
   background-color: #bfbfbf !important;
 }
@@ -689,6 +696,13 @@ body .three_page_men .three_page_slider .arrow {
   padding-bottom: 1em;
 }
 
+body .three_page_men .three_page_slider .arrow div:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
 body .three_page_men .three_page_slider .slides img {
   width: 26.5em;
   height: 27.5em;
@@ -781,6 +795,13 @@ body .four_page_woomen .four_page_slider .arrow {
   padding-bottom: 1em;
 }
 
+body .four_page_woomen .four_page_slider .arrow div:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
 body .four_page_woomen .four_page_slider .slides img {
   width: 26.5em;
   height: 27.5em;
@@ -808,5 +829,192 @@ body .four_page_woomen .four_page_btn button a:hover {
   color: black;
   -webkit-transition: 0.6s;
   transition: 0.6s;
+}
+
+body .five_page {
+  margin: 0 auto;
+  background: url(../img/Map/back-map-photoshop.jpg) no-repeat;
+  max-width: 120em;
+  height: 67.5em;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .five_page .five_page_form_one_block {
+  max-width: 120em;
+  min-width: 80em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body .five_page .five_page_form_one_block .five_page_form_one_block_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0.6em;
+  margin-top: 0.5em;
+  border: 10px solid  #DBC6B0;
+}
+
+body .five_page .five_page_form_one_block .five_page_form_one_block_image img {
+  margin-left: 31.625em;
+  margin-top: -5em;
+}
+
+body .five_page .five_page_form {
+  min-width: 75em;
+  max-width: 120em;
+  height: 67.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .five_page .five_page_form .five_page_form_filling {
+  width: 63.75em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #D9D9D9;
+}
+
+body .five_page .five_page_form .five_page_form_filling .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 63.75em;
+}
+
+body .five_page .five_page_form .five_page_form_filling .five_page_form_filling_title h3 {
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
+  font-size: 2.375em;
+  color: #013652;
+}
+
+body .five_page .five_page_form_image_perfume {
+  max-width: 120em;
+  min-width: 110em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body .five_page .five_page_contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .five_page .five_page_contact .five_page_contact_line img {
+  width: 106.25em;
+}
+
+body .five_page .five_page_contact .five_page_contact_title {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-size: 2.75em;
+  color: #013652;
+}
+
+body .five_page .five_page_contact .five_page_contact_number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .five_page .five_page_contact .five_page_contact_number a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.875em;
+  color: #013652;
+  margin-left: 1em;
+}
+
+body .five_page .five_page_contact .five_page_contact_icons img {
+  width: 5em;
+  height: 5em;
+  padding: 0.5em;
 }
 /*# sourceMappingURL=style.css.map */

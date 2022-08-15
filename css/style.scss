@@ -53,6 +53,13 @@ $font_notoserif: 'Noto Serif', serif;
     padding-top: 0.5em;
 }
 
+.form-text {
+    font-family: $font_notoserif;
+    font-weight: 700;
+    font-size: 3.75em;
+    color: #013652;
+}
+
 body {
     // background-color: #185D77 !important;
     background-color: #bfbfbf !important;
@@ -426,6 +433,10 @@ body {
                 align-items: flex-start;
                 width: 97.938em;
                 padding-bottom: 1em;
+                & div:hover {
+                    transform: scale(1.1);
+                    transition: 0.8s;
+                }
             }
 
             .slides {
@@ -495,6 +506,10 @@ body {
                 align-items: flex-start;
                 width: 97.938em;
                 padding-bottom: 1em;
+                & div:hover {
+                    transform: scale(1.1);
+                    transition: 0.8s;
+                }
             }
 
             .slides {
@@ -525,6 +540,128 @@ body {
                         transition: 0.6s;
                     };
                 }  
+            }
+        }
+    }
+
+    .five_page {
+        margin: 0 auto;
+        background:url(../img/Map/back-map-photoshop.jpg) no-repeat;
+        max-width: 120em;
+        height: 67.5em;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .five_page_form_one_block {
+            max-width: 120em;
+            min-width: 80em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            .five_page_form_one_block_title {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+                padding: 0.6em;
+                margin-top: 0.5em;
+                border: 10px solid  #DBC6B0;
+                @extend .form-text;
+            }
+
+            .five_page_form_one_block_image {
+                img {
+                    margin-left: 31.625em;
+                    margin-top: -5em;
+                }
+            }
+        }
+
+        .five_page_form {
+            min-width: 75em;
+            max-width: 120em;
+            height: 67.5em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;   
+            .five_page_form_filling {
+                width: 63.75em;
+                // height: 5.25em;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                background-color: #D9D9D9;
+                
+                .form-group {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    width: 63.75em;
+                    
+                }
+                .five_page_form_filling_title {
+                    h3 {
+                        font-family: $font_notoserif;
+                        font-weight: bold;
+                        font-size: 2.375em;
+                        color: #013652;
+                    }
+                }
+            } 
+        }
+
+        .five_page_form_image_perfume {
+            max-width: 120em;
+            min-width: 110em;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .five_page_contact {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .five_page_contact_line {
+                img {
+                    width: 106.25em;
+                }
+            }
+
+            .five_page_contact_title {
+                font-family: $font_notoserif;
+                font-weight: 700;
+                font-size: 2.75em;
+                color: #013652;
+            }
+
+            .five_page_contact_number {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                & a {
+                    font-family: $font_motoserrat;
+                    font-weight: 700;
+                    font-size: 1.875em;
+                    color: #013652;
+                    margin-left: 1em;
+                }
+            }
+
+            .five_page_contact_icons {
+                img {
+                    width: 5em;
+                    height: 5em;
+                    padding: 0.5em;
+                }
             }
         }
     }
